@@ -1,0 +1,123 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-weight: normal;
+  font-family: 'Comic Sans MS, Comic Sans, cursive', Geneva, Verdana, sans-serif;
+  }
+  body{
+      padding: 0;
+      margin: 0%;
+      background-color: #e3eaa7;
+      font-family: "Brush Script MT, cursive";
+
+  }
+
+.div1 {
+  align-items: center;  
+  background-color:  rgba(0 ,0,0,.85);
+  border: 5px solid white;
+  padding: 100px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 80px;
+  margin: 0 auto;
+	width: 500px;
+  padding-top: 40px;
+
+  
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 20px;
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+
+
+
+
+.menu input {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px 30px 30px 5px
+}
+
+.menu input {
+  padding: 12px;
+  margin-bottom: 12px;
+  background-color: #e5ca33;
+  color: #ffffff;
+  border:none;
+  outline: none; !important
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}.menu input:hover {
+  background-color: #cc8b00;
+
+}
+ button {
+   background-color: #4c7aaf; /* Green */
+   border-radius: 15px;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  padding: 10px 15px;
+  outline: none;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 16px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;;}
+  .ml9 {
+    position: relative;
+    font-weight: 200px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 1px;
+    padding-top: 30px;
+    
+  }.button:hover {
+   
+    background-color: white;
+    color: teal;
+  
+  }
+  
+  .ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+  }
+  
+  .ml9 .letter {
+    transform-origin: 100% 100%;
+    display: inline-block;
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
